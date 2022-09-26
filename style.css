@@ -1,4 +1,4 @@
-body {
+     body {
         font-family: Roboto, sans-serif;
         color: #c1c1c1;
      }
@@ -11,7 +11,7 @@ body {
      nav {
         display: flex;
         align-items: center;
-        background-color: #000102;
+        background-color: #24aacf;
      }
 
      nav > a {
@@ -40,4 +40,18 @@ nav ul a {
        width: 100%;
        text-decoration: none;
        color: #FFFFFF;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url("CAMERA.png");
+}
+
+   footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #24aacf;
+   color: #FFFFFF;
 }
